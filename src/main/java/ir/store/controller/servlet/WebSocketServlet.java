@@ -1,6 +1,6 @@
 package ir.store.controller.servlet;
 
-import ir.mft.store.controller.socket.WsServer;
+import ir.store.controller.socket.WsServer;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

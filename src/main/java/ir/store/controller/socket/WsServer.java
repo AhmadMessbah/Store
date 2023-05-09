@@ -1,6 +1,6 @@
 package ir.store.controller.socket;
 
-import ir.mft.store.controller.session.SessionManager;
+import ir.store.controller.session.SessionManager;
 import jakarta.servlet.http.HttpSession;
 import jakarta.websocket.EndpointConfig;
 import jakarta.websocket.OnMessage;

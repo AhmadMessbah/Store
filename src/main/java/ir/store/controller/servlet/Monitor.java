@@ -1,6 +1,6 @@
 package ir.store.controller.servlet;
 
-import ir.mft.store.controller.session.SessionManager;
+import ir.store.controller.session.SessionManager;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

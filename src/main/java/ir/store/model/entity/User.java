@@ -3,7 +3,7 @@ package ir.store.model.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Data

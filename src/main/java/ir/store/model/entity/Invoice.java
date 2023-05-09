@@ -6,7 +6,7 @@ import lombok.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Data

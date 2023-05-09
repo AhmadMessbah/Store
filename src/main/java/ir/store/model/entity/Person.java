@@ -1,13 +1,15 @@
 package ir.store.model.entity;
 
+import jakarta.mvc.RedirectScoped;
 import jakarta.persistence.*;
 import lombok.*;
 
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Data
 
+@RedirectScoped
 
 @Entity(name= "personEntity")
 @Table(name="person_tbl")
